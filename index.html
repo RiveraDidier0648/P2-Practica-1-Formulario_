@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Tienda Sencilla</title>
+</head>
+<body>
+
+    <h2>Registro e Inicio de Sesión</h2>
+
+    <form action="guardar.php" method="POST">
+
+        <label>Nombre:</label><br>
+        <input type="text" name="nombre" required><br><br>
+
+        <label>Correo Electrónico:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Contraseña:</label><br>
+        <input type="password" name="password" required><br><br>
+
+        <label>¿Qué deseas comprar? (Categoría):</label><br>
+        <select name="categoria">
+            <option value="Ropa">Ropa</option>
+            <option value="Cosmeticos">Cosméticos</option>
+            <option value="Calzado">Calzado</option>
+            <option value="Celulares">Celulares</option>
+        </select><br><br>
+
+        <label>Selecciona la Marca:</label><br>
+        <select name="marca">
+            <option value="Nike">Nike</option>
+            <option value="Adidas">Adidas</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Apple">Apple</option>
+            <option value="Loreal">L'Oréal</option>
+        </select><br><br>
+
+        <button type="submit">Registrarme y Guardar</button>
+
+    </form>
+
+</body>
+</html>
